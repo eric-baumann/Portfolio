@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .bio, .contact {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .project {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .skills {
+            margin-top: 10px;
+        }
+        .skills span {
+            display: inline-block;
+            background: #77aaff;
+            color: #fff;
+            padding: 5px 10px;
+            margin-right: 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>My Data Science Portfolio</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#bio">Bio</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="bio" class="bio">
+            <h2>Bio</h2>
+            <p><b>Experienced Workforce Planner, Forecaster, and Analyst Transitioning into Data Science</b>
+			<ul>
+			<li><b>Customer Service Mindset:</b> Dedicated to understanding and meeting customer needs.</li>
+			<li><b>Data-Driven Decision Making:</b> Focused on simplifying complex decisions by balancing data insights with people considerations.</li>
+			<li><b>Real-World Data Experience:</b> Skilled in working with practical, real-world data sets.</li>
+			<li><b>Operations Experience:</b> Proven track record in optimizing operational processes and improving efficiency.</li>
+			</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3><a href = "./Projects/Customer-Churn.html">Predictive Analytics:</a> Predicting Customer Churn and Identifying Use Cases</h3>
+                <p>Description: Code walk-through of model that predicts whether a customer will cancel service, with applications to other problems and ways to apply the findings.</p>
+                <div class="skills">
+                    <span>R Programming</span>
+                    <span>Logistic Regression</span>
+                    <span>Data Visualization</span>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Sales Forecasting: Transparent Time Series Analysis</h3>
+                <p>Description: Fit and tested a multiplicative decomposition model, explaining the steps in technical and understandable terms.</p>
+                <div class="skills">
+                    <span>SQL</span>
+                    <span>Time Series Forecasting</span>
+                    <span>Data Cleaning</span>
+                </div>
+            </div>
+            
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>Email: eric.baumann@live.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/eric-baumann-82943494" target="_blank">www.linkedin.com/in/eric-baumann-82943494</a></p>
+        </section>
+    </div>
+</body>
+</html>
